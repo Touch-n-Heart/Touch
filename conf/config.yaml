@@ -1,0 +1,14 @@
+listen_port: 8006
+upload_dir: "storage/uploads"
+db_host: "localhost"
+db_port: 3306
+db_user: root
+db_password: "test@1212"
+db_database: "touch"
+db_driver: "mysql"
+db_max_open_conn: 200
+db_max_idle_conn: 100
+db_connect_timeout_in_seconds: 0
+
+
+
