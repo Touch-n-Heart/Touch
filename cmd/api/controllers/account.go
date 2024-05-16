@@ -23,3 +23,12 @@ func (r *RestHandler) Login(c *gin.Context) {
 		SuccessResponse(c, response, "登录成功")
 	}
 }
+
+func (r *RestHandler) ShowNft(c *gin.Context) {
+	ctx := db.NewContext(c)
+
+	nftInfo, _ := services.GetNftInfo(ctx)
+
+	SuccessResponse(c, nftInfo)
+
+}

@@ -1,0 +1,1 @@
+scp -i ~/.ssh/touch.pem  -r /Users/liuhongyang/Documents/Touch/front ubuntu@ec2-34-203-31-196.compute-1.amazonaws.com:/home/ubuntu/front
